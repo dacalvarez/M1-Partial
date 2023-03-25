@@ -1,0 +1,20 @@
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\bin\Debug\PCPartsDB.dacpac
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\bin\Debug\Database.dll
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\bin\Debug\Database.pdb
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\obj\Debug\PCPartsDB.sqlproj.AssemblyReference.cache
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\obj\Debug\Database.dll
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\obj\Debug\Database.pdb
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\obj\Debug\Model.xml
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\obj\Debug\refactor.xml
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\obj\Debug\postdeploy.sql
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\obj\Debug\predeploy.sql
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\Database\bin\Debug\PCPartsDB.dacpac
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\Database\bin\Debug\Database.dll
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\Database\bin\Debug\Database.pdb
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\Database\obj\Debug\PCPartsDB.sqlproj.AssemblyReference.cache
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\Database\obj\Debug\Database.dll
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\Database\obj\Debug\Database.pdb
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\Database\obj\Debug\Model.xml
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\Database\obj\Debug\refactor.xml
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\Database\obj\Debug\postdeploy.sql
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\Database\obj\Debug\predeploy.sql

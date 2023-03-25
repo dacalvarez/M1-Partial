@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Problems>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0011</Rule>
+    <ProblemDescription>Object name(PC Part) contains special characters.</ProblemDescription>
+    <SourceFile>C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\dbo\Tables\PC.sql</SourceFile>
+    <Line>3</Line>
+    <Column>3</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\Stored Procedures\spParts_AllData.sql</SourceFile>
+    <Line>8</Line>
+    <Column>16</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\Stored Procedures\spParts_AllData.sql</SourceFile>
+    <Line>10</Line>
+    <Column>16</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\Stored Procedures\spParts_AllData.sql</SourceFile>
+    <Line>12</Line>
+    <Column>16</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\Stored Procedures\spParts_AllData.sql</SourceFile>
+    <Line>14</Line>
+    <Column>16</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\Stored Procedures\spParts_AllData.sql</SourceFile>
+    <Line>16</Line>
+    <Column>16</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\Stored Procedures\spParts_AllData.sql</SourceFile>
+    <Line>18</Line>
+    <Column>16</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\Stored Procedures\spParts_AllData.sql</SourceFile>
+    <Line>20</Line>
+    <Column>16</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\Stored Procedures\spParts_AllData.sql</SourceFile>
+    <Line>22</Line>
+    <Column>16</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0014</Rule>
+    <ProblemDescription>Data loss might occur when casting from Integer to Decimal(10, 2).</ProblemDescription>
+    <SourceFile>C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\Database\Stored Procedures\spParts_Build.sql</SourceFile>
+    <Line>18</Line>
+    <Column>9</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+</Problems>

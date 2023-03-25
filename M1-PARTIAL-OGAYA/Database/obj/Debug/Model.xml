@@ -1,0 +1,2675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSchemaModel FileFormatVersion="1.2" SchemaVersion="2.9" DspName="Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider" CollationLcid="1033" CollationCaseSensitive="False" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+	<Header>
+		<CustomData Category="AnsiNulls">
+			<Metadata Name="AnsiNulls" Value="True" />
+		</CustomData>
+		<CustomData Category="QuotedIdentifier">
+			<Metadata Name="QuotedIdentifier" Value="True" />
+		</CustomData>
+		<CustomData Category="CompatibilityMode">
+			<Metadata Name="CompatibilityMode" Value="150" />
+		</CustomData>
+		<CustomData Category="Reference" Type="Assembly">
+			<Metadata Name="LogicalName" Value="Database.dll" />
+			<Metadata Name="FileName" Value="C:\USERS\USER\DESKTOP\KING'S STUFF\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-MAIN\M1-PARTIAL-MAIN\M1-PARTIAL-OGAYA\DATABASE\OBJ\DEBUG\DATABASE.DLL" />
+			<Metadata Name="AssemblyName" Value="Database" />
+			<Metadata Name="PermissionSet" Value="SAFE" />
+			<Metadata Name="Owner" Value="" />
+			<Metadata Name="GenerateSqlClrDdl" Value="True" />
+			<Metadata Name="IsVisible" Value="True" />
+			<Metadata Name="IsModelAware" Value="True" />
+			<Metadata Name="SkipCreationIfEmpty" Value="True" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\Database\obj\Debug\Database.pdb" />
+		</CustomData>
+		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
+	</Header>
+	<Model>
+		<Element Type="SqlDatabaseOptions">
+			<Property Name="Collation" Value="SQL_Latin1_General_CP1_CI_AS" />
+			<Property Name="IsAnsiNullDefaultOn" Value="True" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Property Name="IsAnsiWarningsOn" Value="True" />
+			<Property Name="IsArithAbortOn" Value="True" />
+			<Property Name="IsConcatNullYieldsNullOn" Value="True" />
+			<Property Name="IsTornPageProtectionOn" Value="False" />
+			<Property Name="IsFullTextEnabled" Value="True" />
+			<Property Name="PageVerifyMode" Value="3" />
+			<Property Name="DefaultLanguage" Value="" />
+			<Property Name="DefaultFullTextLanguage" Value="" />
+			<Property Name="QueryStoreStaleQueryThreshold" Value="367" />
+			<Relationship Name="DefaultFilegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[CASES].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[CASES]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="3" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[CPU].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[CPU]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="4" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[FANS].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[FANS]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="5" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[GPU].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[GPU]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="6" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[MOBO].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[MOBO]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="7" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[PSU].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[PSU]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="8" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[RAM].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[RAM]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="9" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[SSD].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[SSD]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="10" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[PC].[ID]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[PC]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="11" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[Users].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[Users]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="12" />
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[CASES]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[CASES].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="3" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[CASES].[Name]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[CASES].[Code]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[CASES].[Brand]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[CASES].[UnitPrice]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[CPU]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[CPU].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="4" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[CPU].[Name]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[CPU].[Code]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[CPU].[Brand]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[CPU].[UnitPrice]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[FANS]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[FANS].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="5" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[FANS].[Name]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[FANS].[Code]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[FANS].[Brand]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[FANS].[UnitPrice]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[GPU]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[GPU].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="6" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[GPU].[Name]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[GPU].[Code]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[GPU].[Brand]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[GPU].[UnitPrice]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[MOBO]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MOBO].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="7" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MOBO].[Name]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MOBO].[Code]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MOBO].[Brand]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MOBO].[UnitPrice]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[PC]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[PC].[ID]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="11" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[PC].[PC Part]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[PC].[Name]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[PC].[UnitPrice]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[PSU]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[PSU].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="8" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[PSU].[Name]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[PSU].[Code]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[PSU].[Brand]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[PSU].[UnitPrice]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[RAM]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[RAM].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="9" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[RAM].[Name]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[RAM].[Code]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[RAM].[Brand]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[RAM].[UnitPrice]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[spParts_AllData]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+    SET NOCOUNT ON;
+    
+        IF @tableName = 'CASES'
+        SELECT * FROM dbo.CASES;
+    ELSE IF @tableName = 'CPU'
+        SELECT * FROM dbo.CPU;
+    ELSE IF @tableName = 'FANS'
+        SELECT * FROM dbo.FANS;
+    ELSE IF @tableName = 'GPU'
+        SELECT * FROM dbo.GPU;
+    ELSE IF @tableName = 'MOBO'
+        SELECT * FROM dbo.MOBO;
+    ELSE IF @tableName = 'PSU'
+        SELECT * FROM dbo.PSU;
+    ELSE IF @tableName = 'RAM'
+        SELECT * FROM dbo.RAM;
+    ELSE IF @tableName = 'SSD'
+        SELECT * FROM dbo.SSD;
+    ELSE
+        RAISERROR('Invalid table name', 16, 1);
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[spParts_AllData].[@tableName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CASES]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CPU]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FANS]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GPU]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MOBO]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PSU]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[RAM]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SSD]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_AllData].[@tableName]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="663" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[spParts_AllData]&#xA;&#x9;@tableName NVARCHAR(50)&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[spParts_Build]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @PartTable TABLE ( [Name] NVARCHAR(MAX), [UnitPrice] DECIMAL(10, 2), [Table] NVARCHAR(MAX));
+
+    SET @TotalPrice = 0;
+
+    DELETE FROM PC;
+
+    IF @CaseId IS NOT NULL
+    BEGIN
+        INSERT INTO @PartTable ([Name], [UnitPrice], [Table])
+        SELECT  [Name], [UnitPrice], 'CASES' FROM [dbo].[CASES] WHERE [Id] = @CaseId;
+        SET @TotalPrice += (SELECT [UnitPrice] FROM [dbo].[CASES] WHERE [Id] = @CaseId);
+    END
+
+    IF @FanId IS NOT NULL
+    BEGIN
+        INSERT INTO @PartTable ([Name], [UnitPrice], [Table])
+        SELECT [Name], [UnitPrice], 'FANS' FROM [dbo].[FANS] WHERE [Id] = @FanId;
+        SET @TotalPrice += (SELECT [UnitPrice] FROM [dbo].[FANS] WHERE [Id] = @FanId);
+    END
+
+    IF @CpuId IS NOT NULL
+    BEGIN
+        INSERT INTO @PartTable ([Name], [UnitPrice], [Table])
+        SELECT [Name], [UnitPrice], 'CPU' FROM [dbo].[CPU] WHERE [Id] = @CpuId;
+        SET @TotalPrice += (SELECT [UnitPrice] FROM [dbo].[CPU] WHERE [Id] = @CpuId);
+    END
+
+    IF @GpuId IS NOT NULL
+    BEGIN
+        INSERT INTO @PartTable ([Name], [UnitPrice], [Table])
+        SELECT [Name], [UnitPrice], 'GPU' FROM [dbo].[GPU] WHERE [Id] = @GpuId;
+        SET @TotalPrice += (SELECT [UnitPrice] FROM [dbo].[GPU] WHERE [Id] = @GpuId);
+    END
+
+    IF @RamId IS NOT NULL
+    BEGIN
+        INSERT INTO @PartTable ([Name], [UnitPrice], [Table])
+        SELECT [Name], [UnitPrice], 'RAM' FROM [dbo].[RAM] WHERE [Id] = @RamId;
+        SET @TotalPrice += (SELECT [UnitPrice] FROM [dbo].[RAM] WHERE [Id] = @RamId);
+    END
+
+    IF @MoboId IS NOT NULL
+    BEGIN
+        INSERT INTO @PartTable ([Name], [UnitPrice], [Table])
+        SELECT [Name], [UnitPrice], 'MOBO' FROM [dbo].[MOBO] WHERE [Id] = @MoboId;
+        SET @TotalPrice += (SELECT [UnitPrice] FROM [dbo].[MOBO] WHERE [Id] = @MoboId);
+    END
+
+    IF @PsuId IS NOT NULL
+    BEGIN
+        INSERT INTO @PartTable ([Name], [UnitPrice], [Table])
+        SELECT [Name], [UnitPrice], 'PSU' FROM [dbo].[PSU] WHERE [Id] = @PsuId;
+        SET @TotalPrice += (SELECT [UnitPrice] FROM [dbo].[PSU] WHERE [Id] = @PsuId);
+    END
+
+IF @SsdId IS NOT NULL
+BEGIN
+    INSERT INTO @PartTable ([Name], [UnitPrice], [Table])
+    SELECT [Name], [UnitPrice], 'SSD' FROM [dbo].[SSD] WHERE [Id] = @SsdId;
+    SET @TotalPrice += (SELECT [UnitPrice] FROM [dbo].[SSD] WHERE [Id] = @SsdId);
+END
+
+SELECT [Name], [UnitPrice], [Table] FROM @PartTable;
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[spParts_Build].[@TotalPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PC]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_Build].[@CaseId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_Build].[@PartTable].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_Build].[@PartTable].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_Build].[@PartTable].[Table]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CASES]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CASES].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CASES].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CASES].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CASES].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CASES].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_Build].[@FanId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FANS]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FANS].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FANS].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FANS].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FANS].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FANS].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_Build].[@CpuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CPU]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CPU].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CPU].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CPU].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CPU].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CPU].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_Build].[@GpuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GPU]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GPU].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GPU].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GPU].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GPU].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GPU].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_Build].[@RamId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[RAM]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[RAM].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[RAM].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[RAM].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[RAM].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[RAM].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_Build].[@MoboId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MOBO]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MOBO].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MOBO].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MOBO].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MOBO].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MOBO].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_Build].[@PsuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PSU]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PSU].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PSU].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PSU].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PSU].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PSU].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_Build].[@SsdId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SSD]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SSD].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SSD].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SSD].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SSD].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SSD].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DynamicObjects">
+				<Entry>
+					<Element Type="SqlDynamicColumnSource" Name="[dbo].[spParts_Build].[@PartTable]">
+						<Relationship Name="Columns">
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[spParts_Build].[@PartTable].[Name]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="IsMax" Value="True" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[spParts_Build].[@PartTable].[UnitPrice]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="Scale" Value="2" />
+												<Property Name="Precision" Value="10" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[decimal]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+							<Entry>
+								<Element Type="SqlSimpleColumn" Name="[dbo].[spParts_Build].[@PartTable].[Table]">
+									<Relationship Name="TypeSpecifier">
+										<Entry>
+											<Element Type="SqlTypeSpecifier">
+												<Property Name="IsMax" Value="True" />
+												<Relationship Name="Type">
+													<Entry>
+														<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+													</Entry>
+												</Relationship>
+											</Element>
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_Build].[@CaseId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_Build].[@FanId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_Build].[@CpuId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_Build].[@GpuId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_Build].[@RamId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_Build].[@MoboId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_Build].[@PsuId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_Build].[@SsdId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_Build].[@TotalPrice]">
+						<Property Name="IsOutput" Value="True" />
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="2626" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[spParts_Build]&#xA;    @CaseId INT,&#xA;    @FanId INT,&#xA;    @CpuId INT,&#xA;    @GpuId INT,&#xA;    @RamId INT,&#xA;    @MoboId INT,&#xA;    @PsuId INT,&#xA;    @SsdId INT,&#xA;    @TotalPrice DECIMAL(10, 2) OUTPUT&#xA;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[spParts_DeleteData]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+    SET NOCOUNT ON;
+    
+    DECLARE @sql NVARCHAR(200);
+    
+    IF @tableName = 'CASES'
+        SET @sql = 'DELETE FROM dbo.CASES WHERE Id = @id';
+    ELSE IF @tableName = 'CPU'
+        SET @sql = 'DELETE FROM dbo.CPU WHERE Id = @id';
+    ELSE IF @tableName = 'FANS'
+        SET @sql = 'DELETE FROM dbo.FANS WHERE Id = @id';
+    ELSE IF @tableName = 'GPU'
+        SET @sql = 'DELETE FROM dbo.GPU WHERE Id = @id';
+    ELSE IF @tableName = 'MOBO'
+        SET @sql = 'DELETE FROM dbo.MOBO WHERE Id = @id';
+    ELSE IF @tableName = 'PSU'
+        SET @sql = 'DELETE FROM dbo.PSU WHERE Id = @id';
+    ELSE IF @tableName = 'RAM'
+        SET @sql = 'DELETE FROM dbo.RAM WHERE Id = @id';
+    ELSE IF @tableName = 'SSD'
+        SET @sql = 'DELETE FROM dbo.SSD WHERE Id = @id';
+    ELSE
+        RAISERROR('Invalid table name', 16, 1);
+
+    EXEC sp_executesql @sql, N'@id INT', @id;
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_DeleteData].[@tableName]" />
+				</Entry>
+				<Entry />
+				<Entry>
+					<References Name="[dbo].[spParts_DeleteData].[@id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_DeleteData].[@tableName]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_DeleteData].[@id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="964" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[spParts_DeleteData]&#xA;&#x9;@tableName NVARCHAR(50),&#xA;&#x9;@id INT&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[spParts_InsertData]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+	SET	NOCOUNT ON;
+    DECLARE @sql NVARCHAR(MAX);
+    
+    SET @sql = N'INSERT INTO ' + QUOTENAME(@tableName) + N' (Name, Code, Brand, UnitPrice) ' +
+               N'VALUES (@name, @code, @brand, @unitPrice)';
+               
+    EXEC sp_executesql @sql, 
+                       N'@name NVARCHAR(MAX), @code NVARCHAR(MAX), @brand NVARCHAR(MAX), @unitPrice DECIMAL(10, 2)', 
+                       @name, @code, @brand, @unitPrice;
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_InsertData].[@tableName]" />
+				</Entry>
+				<Entry />
+				<Entry>
+					<References Name="[dbo].[spParts_InsertData].[@name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_InsertData].[@code]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_InsertData].[@brand]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_InsertData].[@unitPrice]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_InsertData].[@tableName]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_InsertData].[@name]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_InsertData].[@code]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_InsertData].[@brand]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_InsertData].[@unitPrice]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="607" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[spParts_InsertData]&#xA;&#x9;@tableName NVARCHAR(50),&#xA;&#x9;@name NVARCHAR(MAX),&#xA;&#x9;@code NVARCHAR(MAX),&#xA;&#x9;@brand NVARCHAR(MAX),&#xA;&#x9;@unitPrice DECIMAL(10, 2)&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[spParts_SearchFilter]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT 'CASES' AS [Category], [Id], [Name], [Code], [Brand], [UnitPrice]
+    FROM [dbo].[CASES]
+    WHERE (@SearchString IS NULL OR [Name] LIKE '%' + @SearchString + '%' OR [Code] LIKE '%' + @SearchString + '%' OR [Brand] LIKE '%' + @SearchString + '%' OR 'CASE' = @SearchString OR 'CASEs' = @SearchString OR 'TOWER' = @SearchString OR 'TOWERS' = @SearchString)
+        AND (@Category IS NULL OR 'CASE' = @Category  OR 'CASES' = @Category OR 'TOWER' = @Category OR 'TOWERS' = @Category)
+        AND (@Brand IS NULL OR [Brand] = @Brand)
+        AND (@MinPrice IS NULL OR [UnitPrice] >= @MinPrice)
+        AND (@MaxPrice IS NULL OR [UnitPrice] <= @MaxPrice)
+    UNION
+    SELECT 'FANS' AS [Category], [Id], [Name], [Code], [Brand], [UnitPrice]
+    FROM [dbo].[FANS]
+    WHERE (@SearchString IS NULL OR [Name] LIKE '%' + @SearchString + '%' OR [Code] LIKE '%' + @SearchString + '%' OR [Brand] LIKE '%' + @SearchString + '%' OR 'FAN' = @SearchString OR 'FANs' = @SearchString OR 'CASE FAN' = @SearchString OR 'CASE FANs' = @SearchString)
+        AND (@Category IS NULL OR 'FAN' = @Category  OR 'FANS' = @Category OR 'CASE FAN' = @Category OR 'CASE FANS' = @Category)
+        AND (@Brand IS NULL OR [Brand] = @Brand)
+        AND (@MinPrice IS NULL OR [UnitPrice] >= @MinPrice)
+        AND (@MaxPrice IS NULL OR [UnitPrice] <= @MaxPrice)
+    UNION
+    SELECT 'CPU' AS [Category], [Id], [Name], [Code], [Brand], [UnitPrice]
+    FROM [dbo].[CPU]
+    WHERE (@SearchString IS NULL OR [Name] LIKE '%' + @SearchString + '%' OR [Code] LIKE '%' + @SearchString + '%' OR [Brand] LIKE '%' + @SearchString + '%' OR 'CPU' = @SearchString OR 'CPUs' = @SearchString OR 'PROCESSOR' = @SearchString OR 'PROCESSORs' = @SearchString)
+        AND (@Category IS NULL OR 'CPU' = @Category OR 'CPUs' = @Category OR 'PROCESSOR' = @Category OR 'PROCESSORs' = @Category)
+        AND (@Brand IS NULL OR [Brand] = @Brand)
+        AND (@MinPrice IS NULL OR [UnitPrice] >= @MinPrice)
+        AND (@MaxPrice IS NULL OR [UnitPrice] <= @MaxPrice)
+    UNION
+    SELECT 'GPU' AS [Category], [Id], [Name], [Code], [Brand], [UnitPrice]
+    FROM [dbo].[GPU]
+    WHERE (@SearchString IS NULL OR [Name] LIKE '%' + @SearchString + '%' OR [Code] LIKE '%' + @SearchString + '%' OR [Brand] LIKE '%' + @SearchString + '%' OR 'GPU' = @SearchString OR 'GPUs' = @SearchString OR 'GRAPHICS CARD' = @SearchString OR 'GRAPHICS CARDs' = @SearchString)
+        AND (@Category IS NULL OR 'GPU' = @Category OR 'GPUs' = @Category OR 'GRAPHICS CARD' = @Category OR 'GRAPHICS CARDs' = @Category)
+        AND (@Brand IS NULL OR [Brand] = @Brand)
+        AND (@MinPrice IS NULL OR [UnitPrice] >= @MinPrice)
+        AND (@MaxPrice IS NULL OR [UnitPrice] <= @MaxPrice)
+    UNION
+    SELECT 'RAM' AS [Category], [Id], [Name], [Code], [Brand], [UnitPrice]
+    FROM [dbo].[RAM]
+    WHERE (@SearchString IS NULL OR [Name] LIKE '%' + @SearchString + '%' OR [Code] LIKE '%' + @SearchString + '%' OR [Brand] LIKE '%' + @SearchString + '%' OR 'RAM' = @SearchString OR 'RAMs' = @SearchString  OR 'MEMORY' = @SearchString OR 'MEMORIES' = @SearchString)
+        AND (@Category IS NULL OR 'RAM' = @Category OR 'RAMs' = @Category OR 'MEMORY' = @Category OR 'MEMORIES' = @Category)
+        AND (@Brand IS NULL OR [Brand] = @Brand)
+        AND (@MinPrice IS NULL OR [UnitPrice] >= @MinPrice)
+        AND (@MaxPrice IS NULL OR [UnitPrice] <= @MaxPrice)
+    UNION
+    SELECT 'SSD' AS [Category], [Id], [Name], [Code], [Brand], [UnitPrice]
+    FROM [dbo].[SSD]
+    WHERE (@SearchString IS NULL OR [Name] LIKE '%' + @SearchString + '%' OR [Code] LIKE '%' + @SearchString + '%' OR [Brand] LIKE '%' + @SearchString + '%' OR 'SSD' = @SearchString OR 'SSDs' = @SearchString OR 'STORAGE' = @SearchString OR 'STORAGES' = @SearchString)
+        AND (@Category IS NULL OR 'SSD' = @Category OR 'SSDs' = @Category OR 'STORAGE' = @Category OR 'STORAGES' = @Category)
+        AND (@Brand IS NULL OR [Brand] = @Brand)
+        AND (@MinPrice IS NULL OR [UnitPrice] >= @MinPrice)
+        AND (@MaxPrice IS NULL OR [UnitPrice] <= @MaxPrice)
+    UNION
+    SELECT 'PSU' AS [Category], [Id], [Name], [Code], [Brand], [UnitPrice]
+    FROM [dbo].[PSU]
+    WHERE (@SearchString IS NULL OR [Name] LIKE '%' + @SearchString + '%' OR [Code] LIKE '%' + @SearchString + '%' OR [Brand] LIKE '%' + @SearchString + '%' OR 'PSU' = @SearchString OR 'PSUs' = @SearchString OR 'POWER SUPPLY' = @SearchString OR 'POWER SUPPLIES' = @SearchString)
+        AND (@Category IS NULL OR 'PSU' = @Category OR 'PSUS' = @Category OR 'POWER SUPPLY' = @Category OR 'POWER SUPPLIES' = @Category)
+        AND (@Brand IS NULL OR [Brand] = @Brand)
+        AND (@MinPrice IS NULL OR [UnitPrice] >= @MinPrice)
+        AND (@MaxPrice IS NULL OR [UnitPrice] <= @MaxPrice)
+    UNION
+    SELECT 'MOBO' AS [Category], [Id], [Name], [Code], [Brand], [UnitPrice]
+    FROM [dbo].[MOBO]
+    WHERE (@SearchString IS NULL OR [Name] LIKE '%' + @SearchString + '%' OR [Code] LIKE '%' + @SearchString + '%' OR [Brand] LIKE '%' + @SearchString + '%' OR 'MOBO' = @SearchString OR 'MOBOS' = @SearchString OR 'MOTHERBOARD' = @SearchString OR 'MOTHERBOARDS' = @SearchString)
+        AND (@Category IS NULL OR 'MOBO' = @Category OR 'MOBOS' = @Category OR 'MOTHERBOARD' = @Category OR 'MOTHERBOARDS' = @Category)
+        AND (@Brand IS NULL OR [Brand] = @Brand)
+        AND (@MinPrice IS NULL OR [UnitPrice] >= @MinPrice)
+        AND (@MaxPrice IS NULL OR [UnitPrice] <= @MaxPrice);
+    END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[CASES]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CASES].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CASES].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CASES].[Code]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CASES].[Brand]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CASES].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_SearchFilter].[@SearchString]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_SearchFilter].[@Category]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_SearchFilter].[@Brand]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_SearchFilter].[@MinPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_SearchFilter].[@MaxPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FANS]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FANS].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FANS].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FANS].[Code]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FANS].[Brand]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FANS].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CPU]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CPU].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CPU].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CPU].[Code]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CPU].[Brand]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CPU].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GPU]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GPU].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GPU].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GPU].[Code]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GPU].[Brand]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GPU].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[RAM]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[RAM].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[RAM].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[RAM].[Code]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[RAM].[Brand]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[RAM].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SSD]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SSD].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SSD].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SSD].[Code]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SSD].[Brand]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SSD].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PSU]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PSU].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PSU].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PSU].[Code]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PSU].[Brand]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[PSU].[UnitPrice]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MOBO]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MOBO].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MOBO].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MOBO].[Code]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MOBO].[Brand]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MOBO].[UnitPrice]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_SearchFilter].[@SearchString]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[NULL]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_SearchFilter].[@Category]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[NULL]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_SearchFilter].[@Brand]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[NULL]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_SearchFilter].[@MinPrice]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[NULL]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_SearchFilter].[@MaxPrice]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[NULL]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="5761" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[spParts_SearchFilter]&#xD;&#xA;    @SearchString NVARCHAR(50) = NULL,&#xD;&#xA;    @Category NVARCHAR(50) = NULL,&#xD;&#xA;    @Brand NVARCHAR(50) = NULL,&#xD;&#xA;    @MinPrice DECIMAL(10, 2) = NULL,&#xD;&#xA;    @MaxPrice DECIMAL(10, 2) = NULL&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[spParts_UpdateData]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @sql NVARCHAR(200);
+
+    IF @tableName = 'CASES'
+        SET @sql = 'UPDATE dbo.CASES SET Name = @name, Code = @code, Brand = @brand, UnitPrice = @unitPrice WHERE Id = @id';
+    ELSE IF @tableName = 'CPU'
+        SET @sql = 'UPDATE dbo.CPU SET Name = @name, Code = @code, Brand = @brand, UnitPrice = @unitPrice WHERE Id = @id';
+    ELSE IF @tableName = 'FANS'
+        SET @sql = 'UPDATE dbo.FANS SET Name = @name, Code = @code, Brand = @brand, UnitPrice = @unitPrice WHERE Id = @id';
+    ELSE IF @tableName = 'GPU'
+        SET @sql = 'UPDATE dbo.GPU SET Name = @name, Code = @code, Brand = @brand, UnitPrice = @unitPrice WHERE Id = @id';
+    ELSE IF @tableName = 'MOBO'
+        SET @sql = 'UPDATE dbo.MOBO SET Name = @name, Code = @code, Brand = @brand, UnitPrice = @unitPrice WHERE Id = @id';
+    ELSE IF @tableName = 'PSU'
+        SET @sql = 'UPDATE dbo.PSU SET Name = @name, Code = @code, Brand = @brand, UnitPrice = @unitPrice WHERE Id = @id';
+    ELSE IF @tableName = 'RAM'
+        SET @sql = 'UPDATE dbo.RAM SET Name = @name, Code = @code, Brand = @brand, UnitPrice = @unitPrice WHERE Id = @id';
+    ELSE IF @tableName = 'SSD'
+        SET @sql = 'UPDATE dbo.SSD SET Name = @name, Code = @code, Brand = @brand, UnitPrice = @unitPrice WHERE Id = @id';
+    ELSE
+        RAISERROR('Invalid table name', 16, 1);
+
+    EXEC sp_executesql @sql, N'@id INT, @name NVARCHAR(MAX), @code NVARCHAR(MAX), @brand NVARCHAR(MAX), @unitPrice DECIMAL(10, 2)', @id, @name, @code, @brand, @unitPrice;
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_UpdateData].[@tableName]" />
+				</Entry>
+				<Entry />
+				<Entry>
+					<References Name="[dbo].[spParts_UpdateData].[@id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_UpdateData].[@name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_UpdateData].[@code]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_UpdateData].[@brand]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spParts_UpdateData].[@unitPrice]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_UpdateData].[@tableName]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_UpdateData].[@id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_UpdateData].[@name]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_UpdateData].[@code]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_UpdateData].[@brand]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spParts_UpdateData].[@unitPrice]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="1722" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[spParts_UpdateData]&#xA;    @tableName NVARCHAR(50),&#xA;    @id INT,&#xA;    @name NVARCHAR(MAX),&#xA;    @code NVARCHAR(MAX),&#xA;    @brand NVARCHAR(MAX),&#xA;    @unitPrice DECIMAL(10, 2)&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[spUsers_Authenticate]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+begin
+	set nocount on;
+
+	SELECT [Id], [UserName], [FirstName], [LastName], [Password]
+	FROM dbo.Users
+	WHERE UserName = @username
+	AND Password = @password;
+
+end]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Users]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Users].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Users].[UserName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Users].[FirstName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Users].[LastName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Users].[Password]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spUsers_Authenticate].[@username]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spUsers_Authenticate].[@password]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spUsers_Authenticate].[@username]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="16" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spUsers_Authenticate].[@password]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="16" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="259" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[spUsers_Authenticate]&#xA;&#x9;@username nvarchar(16),&#xA;&#x9;@password nvarchar(16)&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[spUsers_Register]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+begin
+	set nocount on;
+
+	INSERT INTO dbo.Users(UserName, FirstName, LastName, Password)
+	VALUES (@userName, @firstName, @lastName, @password)
+end]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Users]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Users].[UserName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Users].[FirstName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Users].[LastName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Users].[Password]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spUsers_Register].[@userName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spUsers_Register].[@firstName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spUsers_Register].[@lastName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[spUsers_Register].[@password]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spUsers_Register].[@userName]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="16" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spUsers_Register].[@firstName]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spUsers_Register].[@lastName]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spUsers_Register].[@password]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="16" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="287" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[spUsers_Register]&#xA;@userName nvarchar(16),&#xA;@firstName nvarchar(50),&#xA;@lastName nvarchar(50),&#xA;@password nvarchar(16)&#xA;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[SSD]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[SSD].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="10" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[SSD].[Name]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[SSD].[Code]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[SSD].[Brand]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[SSD].[UnitPrice]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[decimal]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[Users]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Users].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="12" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Users].[UserName]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="16" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Users].[FirstName]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Users].[LastName]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Users].[Password]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="16" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+	</Model>
+</DataSchemaModel>

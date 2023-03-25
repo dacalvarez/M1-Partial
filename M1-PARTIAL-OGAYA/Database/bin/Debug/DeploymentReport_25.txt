@@ -1,0 +1,31 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[CASES] (Table)
+       [dbo].[CPU] (Table)
+       [dbo].[FANS] (Table)
+       [dbo].[GPU] (Table)
+       [dbo].[MOBO] (Table)
+       [dbo].[PC] (Table)
+       [dbo].[PSU] (Table)
+       [dbo].[RAM] (Table)
+       [dbo].[SSD] (Table)
+       [dbo].[Users] (Table)
+       [dbo].[spParts_AllData] (Procedure)
+       [dbo].[spParts_Build] (Procedure)
+       [dbo].[spParts_DeleteData] (Procedure)
+       [dbo].[spParts_InsertData] (Procedure)
+       [dbo].[spParts_UpdateData] (Procedure)
+       [dbo].[spUsers_Authenticate] (Procedure)
+       [dbo].[spUsers_Register] (Procedure)
+
+** Supporting actions

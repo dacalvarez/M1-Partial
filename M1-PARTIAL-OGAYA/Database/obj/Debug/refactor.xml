@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="80da39fe-717f-4543-9079-268b363a632f" ChangeDateTime="03/19/2023 22:56:26" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[PC].[CASE]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PC]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CASEId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6fbb8ccb-d188-4d3c-aa3b-64cd4cb2ec33" ChangeDateTime="03/19/2023 22:56:33" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[PC].[CPU]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PC]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CPUId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="812c8a0c-cd7f-4686-a095-6edac66f7755" ChangeDateTime="03/19/2023 22:56:36" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[PC].[FANS]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PC]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FANSId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8fe3e4b1-7ee5-4c5e-baa1-90fd6ce38891" ChangeDateTime="03/19/2023 22:56:40" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[PC].[GPU]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PC]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GPUId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e55280c0-02cf-483e-939b-511cab7e4bd0" ChangeDateTime="03/19/2023 22:56:43" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[PC].[MOBO]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PC]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MOBOId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a0362f25-c887-43e1-904c-92b219c2a9dc" ChangeDateTime="03/19/2023 22:56:46" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[PC].[PSU]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PC]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PSUId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="445c9df1-ab01-4bcb-be2b-3f0e18558ce3" ChangeDateTime="03/19/2023 22:56:49" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[PC].[RAM]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PC]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RAMId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0e93b599-0aa8-48b7-b110-dc0b7f6ff28e" ChangeDateTime="03/19/2023 22:56:52" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[PC].[SSD]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PC]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SSDId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6900630a-69c8-498c-9d44-4264eafb0f19" ChangeDateTime="03/21/2023 19:25:10" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[PC].[Price]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PC]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UnitPrice" />
+  </Operation>
+</Operations>

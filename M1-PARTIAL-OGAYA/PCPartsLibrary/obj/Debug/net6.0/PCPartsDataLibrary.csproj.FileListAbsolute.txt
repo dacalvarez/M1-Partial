@@ -1,0 +1,24 @@
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\PCPartsLibrary\bin\Debug\net6.0\PCPartsDataLibrary.deps.json
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\PCPartsLibrary\bin\Debug\net6.0\PCPartsDataLibrary.dll
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\PCPartsLibrary\bin\Debug\net6.0\PCPartsDataLibrary.pdb
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.csproj.AssemblyReference.cache
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.AssemblyInfoInputs.cache
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.AssemblyInfo.cs
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.dll
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\refint\PCPartsDataLibrary.dll
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.pdb
+C:\Users\dawor\source\repos\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\ref\PCPartsDataLibrary.dll
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\PCPartsLibrary\bin\Debug\net6.0\PCPartsDataLibrary.deps.json
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\PCPartsLibrary\bin\Debug\net6.0\PCPartsDataLibrary.dll
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\PCPartsLibrary\bin\Debug\net6.0\PCPartsDataLibrary.pdb
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.AssemblyInfo.cs
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.dll
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\refint\PCPartsDataLibrary.dll
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\PCPartsDataLibrary.pdb
+C:\Users\user\Desktop\king's stuff\MAPUA\YEAR 2\SYSTEM ARCHITECURE 2\M1-PARTIAL-main\M1-PARTIAL-main\M1-PARTIAL-OGAYA\PCPartsLibrary\obj\Debug\net6.0\ref\PCPartsDataLibrary.dll
